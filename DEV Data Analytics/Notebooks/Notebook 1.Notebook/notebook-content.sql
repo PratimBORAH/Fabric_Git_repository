@@ -43,7 +43,7 @@
 
 SELECT TOP (100) [DCO],
             [CLI],
-            [AMT_USD]
+            [AMT_USD] -- added new column
 FROM [Lakehouse].[dbo].[VW_CR_MVT_RB_FINAL]
 
 -- METADATA ********************
